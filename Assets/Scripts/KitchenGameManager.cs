@@ -20,9 +20,9 @@ public class KitchenGameManager : MonoBehaviour
 
     private State state;
 
-    private float coundownToStartTimer = 3f;
+    private float coundownToStartTimer = 1f;
     private float gamePlayingTimer;
-    private float gamePlayingTimerMax = 10f;
+    private float gamePlayingTimerMax = 300f;
     private bool isGamePaused = false;
 
 
@@ -36,6 +36,9 @@ public class KitchenGameManager : MonoBehaviour
     {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
+
+        //DEBUG TRIGGER GAME START AUTO
+        SetState(State.CountdownToStart);
     }
 
     private void GameInput_OnInteractAction(object sender, EventArgs e)
