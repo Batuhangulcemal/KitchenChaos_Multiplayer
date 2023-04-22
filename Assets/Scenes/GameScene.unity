@@ -7618,29 +7618,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CuttingCounter (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: c06fae89ce8df38428e29023ec6d58c3,
-        type: 2}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 8b8aed34c77c0cf48a1b8187e2b1091c,
-        type: 2}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: cc1ee1c3d33c79249a80b56dd4e556ea,
-        type: 2}
     - target: {fileID: 7994594441676806693, guid: 30f7c90536a176646a4e8e9e97d99c33,
         type: 3}
       propertyPath: m_RootOrder
@@ -12741,6 +12718,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1913366048}
     m_Modifications:
+    - target: {fileID: -3641693811356029572, guid: 4c62d2643c1329242aea51b205eeb524,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 483441932
+      objectReference: {fileID: 0}
     - target: {fileID: 3853501527255059348, guid: 4c62d2643c1329242aea51b205eeb524,
         type: 3}
       propertyPath: m_RootOrder
@@ -13598,29 +13580,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CuttingCounter
       objectReference: {fileID: 0}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: c06fae89ce8df38428e29023ec6d58c3,
-        type: 2}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 8b8aed34c77c0cf48a1b8187e2b1091c,
-        type: 2}
-    - target: {fileID: 6866642662829496425, guid: 30f7c90536a176646a4e8e9e97d99c33,
-        type: 3}
-      propertyPath: cuttingRecipeSOArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: cc1ee1c3d33c79249a80b56dd4e556ea,
-        type: 2}
     - target: {fileID: 7994594441676806693, guid: 30f7c90536a176646a4e8e9e97d99c33,
         type: 3}
       propertyPath: m_RootOrder
@@ -13691,7 +13650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1819374030}
   - component: {fileID: 1819374029}
-  - component: {fileID: 1819374028}
+  - component: {fileID: 1819374031}
   m_Layer: 0
   m_Name: KitchenGameMultiplayer
   m_TagString: Untagged
@@ -13699,22 +13658,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1819374028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819374027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 137656466
-  AlwaysReplicateAsRoot: 0
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
 --- !u!114 &1819374029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13744,6 +13687,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1819374031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819374027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2225461742
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &1829047681
 GameObject:
   m_ObjectHideFlags: 0
