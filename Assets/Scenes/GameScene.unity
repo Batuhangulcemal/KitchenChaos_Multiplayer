@@ -901,6 +901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2155981589
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -3299,6 +3304,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 821860244
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -3465,6 +3475,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5082845580857087600, guid: 4d724a3630c102f47ab1b31b07093e1b,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 473140130
+      objectReference: {fileID: 0}
     - target: {fileID: 6705317923849934341, guid: 4d724a3630c102f47ab1b31b07093e1b,
         type: 3}
       propertyPath: m_Name
@@ -3582,6 +3597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2257268559
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -5105,6 +5125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoveCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6585055167521136639, guid: 77dd5232639aa604bb0396998d0fac6d,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 80145415
+      objectReference: {fileID: 0}
     - target: {fileID: 7285659577350039565, guid: 77dd5232639aa604bb0396998d0fac6d,
         type: 3}
       propertyPath: m_RootOrder
@@ -6194,6 +6219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4175310617
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -7499,6 +7529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1840606307
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -7573,6 +7608,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1913366048}
     m_Modifications:
+    - target: {fileID: -9165836710553030019, guid: 30f7c90536a176646a4e8e9e97d99c33,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2505567566
+      objectReference: {fileID: 0}
     - target: {fileID: 256907391707178934, guid: 30f7c90536a176646a4e8e9e97d99c33,
         type: 3}
       propertyPath: m_Name
@@ -7679,6 +7719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1289052010
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -8469,6 +8514,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9080073256923442135, guid: 82215ed9e11f35641ba75e8a63cb3b08,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 687207564
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8891,6 +8941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoveCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585055167521136639, guid: 77dd5232639aa604bb0396998d0fac6d,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 445138332
       objectReference: {fileID: 0}
     - target: {fileID: 7285659577350039565, guid: 77dd5232639aa604bb0396998d0fac6d,
         type: 3}
@@ -12307,6 +12362,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1913366048}
     m_Modifications:
+    - target: {fileID: 269154750726950892, guid: 324359aa4039ef941bfea508cacce3f6,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2288654558
+      objectReference: {fileID: 0}
     - target: {fileID: 3441745048945095542, guid: 324359aa4039ef941bfea508cacce3f6,
         type: 3}
       propertyPath: m_Name
@@ -12602,6 +12662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3059720756
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -12754,6 +12819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2965575586
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -12883,6 +12953,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5082845580857087600, guid: 1d4c230aeaee1a845b8426c3e81e344a,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2841721887
+      objectReference: {fileID: 0}
     - target: {fileID: 6705317923849934341, guid: 1d4c230aeaee1a845b8426c3e81e344a,
         type: 3}
       propertyPath: m_Name
@@ -12905,6 +12980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1990496890
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -12984,6 +13064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ContainerCounter_CheeseBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588928376290296168, guid: b20b68f0e0fbedf4c9431829e808c7d6,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4169270538
       objectReference: {fileID: 0}
     - target: {fileID: 5281287137305558158, guid: b20b68f0e0fbedf4c9431829e808c7d6,
         type: 3}
@@ -13193,6 +13278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2879373796
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -13322,6 +13412,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5082845580857087600, guid: 9244008f9e939f8448d7d8d1dc40019e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 737762156
+      objectReference: {fileID: 0}
     - target: {fileID: 6705317923849934341, guid: 9244008f9e939f8448d7d8d1dc40019e,
         type: 3}
       propertyPath: m_Name
@@ -13414,6 +13509,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1579356198
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -13488,6 +13588,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1913366048}
     m_Modifications:
+    - target: {fileID: -9165836710553030019, guid: 30f7c90536a176646a4e8e9e97d99c33,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2457862573
+      objectReference: {fileID: 0}
     - target: {fileID: 256907391707178934, guid: 30f7c90536a176646a4e8e9e97d99c33,
         type: 3}
       propertyPath: m_Name
@@ -14063,6 +14168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3431945144
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -14196,6 +14306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1235607730
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -14548,6 +14663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2086939163
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -14659,6 +14779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2747487351
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -14731,6 +14856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1118236451
       objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
@@ -15449,6 +15579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2880343121
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -16010,6 +16145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264260502358696173, guid: ce35c02524df25442ba52a8ecf18dac5,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2870825514
+      objectReference: {fileID: 0}
     - target: {fileID: 8586072602030226915, guid: ce35c02524df25442ba52a8ecf18dac5,
         type: 3}
       propertyPath: m_RootOrder
@@ -16138,6 +16278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082845580857087600, guid: 00c5d361141e74e438255e92ff1e5947,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3716744718
       objectReference: {fileID: 0}
     - target: {fileID: 6705317923849934341, guid: 00c5d361141e74e438255e92ff1e5947,
         type: 3}
