@@ -316,12 +316,12 @@ PrefabInstance:
     - target: {fileID: 6614202160849257731, guid: 3f18a8bfc3a7bbd4696266e2daf4edfb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6614202160849257731, guid: 3f18a8bfc3a7bbd4696266e2daf4edfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.29
       objectReference: {fileID: 0}
     - target: {fileID: 6614202160849257731, guid: 3f18a8bfc3a7bbd4696266e2daf4edfb,
         type: 3}
@@ -331,7 +331,7 @@ PrefabInstance:
     - target: {fileID: 6614202160849257731, guid: 3f18a8bfc3a7bbd4696266e2daf4edfb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 6614202160849257731, guid: 3f18a8bfc3a7bbd4696266e2daf4edfb,
         type: 3}
@@ -412,7 +412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterTopPoint: {fileID: 8553267485887346112}
-  cuttingRecipeSOArray: []
+  cuttingRecipeSOArray:
+  - {fileID: 11400000, guid: c06fae89ce8df38428e29023ec6d58c3, type: 2}
+  - {fileID: 11400000, guid: 8b8aed34c77c0cf48a1b8187e2b1091c, type: 2}
+  - {fileID: 11400000, guid: cc1ee1c3d33c79249a80b56dd4e556ea, type: 2}
 --- !u!114 &-9165836710553030019
 MonoBehaviour:
   m_ObjectHideFlags: 0
