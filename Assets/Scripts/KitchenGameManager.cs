@@ -199,6 +199,11 @@ public class KitchenGameManager : NetworkBehaviour
     public bool IsCountdownToStartActive()
     {
         return state.Value == State.CountdownToStart;
+    }  
+    
+    public bool IsWaitingToStart()
+    {
+        return state.Value == State.WaitingToStart;
     }
 
     public bool IsGameOver()
