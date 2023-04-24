@@ -55,7 +55,7 @@ public class OptionsUI : MonoBehaviour
 
     private void Start()
     {
-        KitchenGameManager.Instance.OnGamePaused += KitchenGameManager_OnGamePaused;
+        KitchenGameManager.Instance.OnLocalGamePaused += KitchenGameManager_OnGamePaused;
         UpdateVisual();
 
         Hide();
