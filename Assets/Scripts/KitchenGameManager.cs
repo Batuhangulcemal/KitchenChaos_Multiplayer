@@ -23,6 +23,8 @@ public class KitchenGameManager : NetworkBehaviour
         GameOver
     }
 
+    [SerializeField] private Transform playerPrefab;
+
     private NetworkVariable<State> state = new(State.WaitingToStart);
     private NetworkVariable<float> coundownToStartTimer = new(3f);
     private NetworkVariable<float> gamePlayingTimer = new(0f);
@@ -70,6 +72,16 @@ public class KitchenGameManager : NetworkBehaviour
         if (IsServer)
         {
             NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
+            NetworkManager.Singleton.SceneManager.OnLoadEventCompleted += SceneManager_OnLoadEventCompleted;
+        }
+    }
+
+    private void SceneManager_OnLoadEventCompleted(string sceneName, UnityEngine.SceneManagement.LoadSceneMode loadSceneMode, List<ulong> clientsCompleted, List<ulong> clientsTimedOut)
+    {
+        foreach(ulong clientId in NetworkManager.Singleton.ConnectedClientsIds)
+        {
+            Transform playerTransform = Instantiate(playerPrefab);
+            playerTransform.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId, true);
         }
     }
 
@@ -104,13 +116,13 @@ public class KitchenGameManager : NetworkBehaviour
         {
             isLocalPlayerReady = true;
             OnLocalPlayerReadyChanged?.Invoke(this, EventArgs.Empty);
-            SetplayerReadyServerRpc();
+            SetPlayerReadyServerRpc();
         }
     }
 
 
     [ServerRpc(RequireOwnership = false)]
-    private void SetplayerReadyServerRpc(ServerRpcParams serverRpcParams = default)
+    private void SetPlayerReadyServerRpc(ServerRpcParams serverRpcParams = default)
     {
         playerReadyDictionary[serverRpcParams.Receive.SenderClientId] = true;
 

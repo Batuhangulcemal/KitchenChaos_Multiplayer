@@ -20,7 +20,7 @@ public class MainMenuUI : MonoBehaviour
 
     private void PlayButtonPressed()
     {
-        Loader.Load(Loader.Scene.GameScene);
+        Loader.Load(Loader.Scene.LobbyScene);
     }
 
     private void QuitButtonPressed()
